@@ -36,6 +36,9 @@ Coming soon...
 ### Support Vector Machines (SVM)
 Coming soon...
 
+### Density-based spatial clustering of applications with noise (DBSCAN)
+Coming soon...
+
 ## Anomaly Detection in Time Series Analysis
 
 ### Anomaly Detection with Seasonal-Trend decomposition
