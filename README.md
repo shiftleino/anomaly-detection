@@ -1,5 +1,5 @@
 # Anomaly Detection
-This repository contains some anomaly detection projects and notes. 
+This repository contains some anomaly detection testing projects and notes. 
 
 ## Notes
 [Check for notes](./notes/notes.md)
