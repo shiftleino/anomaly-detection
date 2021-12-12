@@ -37,3 +37,10 @@ Coming soon...
 Coming soon...
 
 ## Anomaly Detection in Time Series Analysis
+
+### Anomaly Detection with Seasonal-Trend decomposition
+In time series analysis anomalies can be detected for example by using the Seasonal-Trend decomposition. In Seasonal-Trend decomposition the time series is split into three parts: seasonal, trend and residual part. This can be done for example by using LOESS (locally estimated scatterplot smoothing), which makes the decomposition a STL decomposition. In LOESS we fit lines/parabolas (then points) on windows of the data, give weights based the distance from the original point, thus approximating the data with a fitted curve. STL has many advantages, for example it can handle any type of seasonality, the seasonality can change over time and the user can control the smoothness of the trend-cycle part and the rate of change of seasonality. 
+
+```console
+from statsmodels.tsa.seasonal import STL
+```
